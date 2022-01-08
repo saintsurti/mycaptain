@@ -1,3 +1,3 @@
 f=input("Input the Filename: ")
-fext = filename.split(".")
+fext = f.split(".")
 print ("The extension of the file is : " + str(fext[-1]))
