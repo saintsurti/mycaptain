@@ -12,5 +12,5 @@ def most_frequent(text):
         result.append((dictionary[key], key))
     result.sort(reverse=True)
     for count, letter in result:
-        print letter, count
+        print(letter, count)
 most_frequent(text)
